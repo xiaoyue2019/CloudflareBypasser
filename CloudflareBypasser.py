@@ -67,6 +67,7 @@ class CloudflareBypasser:
                 self.log_message(
                     "Verification button found. Attempting to click.")
                 button.click()
+                time.sleep(3)
             else:
                 self.log_message("Verification button not found.")
 
